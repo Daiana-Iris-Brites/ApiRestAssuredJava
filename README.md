@@ -72,5 +72,9 @@ Após a execução dos testes, você pode encontrar os relatórios do Allure no 
 Para gerar os relatórios de testes do Allure, é necessário fazer a instalação do Allure conforme a documentação oficial: https://docs.qameta.io/allure/#_installing_a_commandline
 ![AllureReport.jpg](AllureReport.jpg)
 
+### Pipeline
+Foi configurada uma pipeline de teste no GitHub Actions. Toda vez que ocorrer um push para o branch main, os testes serão executados automaticamente.
+Você pode visualizar o status e os resultados da pipeline na aba "Actions" do seu repositório no GitHub.
+
 ### Oportunidades de melhorias
 Analisando possíveis cenários de testes, como campos em branco, e considerando que não há uma documentação específica que descreva o comportamento correto da resposta, foram adicionados cenários adicionais. Em um cenário real, essa seria uma oportunidade para colaborar com o time de desenvolvimento, discutindo possíveis melhorias e impactos no sistema conforme as entregas forem realizadas.
