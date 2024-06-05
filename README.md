@@ -21,15 +21,26 @@ URI = https://reqres.in/api/
 - Junit
 - Faker (para geração de dados falsos em testes)
 
-Configuração
+### Configuração
 - [Instalação do Java JDK no Windows](https://www.youtube.com/watch?v=laC0fiI-IOM)
 - [Instalação do Maven](https://www.youtube.com/watch?v=rfhTnfbBQcY)
+
+>ATENÇÃO 
+### Pré requisitos:
+Antes de começar, garanta que você já tem configurado e instalado:
+- Java 17
+- Maven
 
 ## Uso
 Instruções sobre como instalar e configurar o projeto:
 
 
 1) Fazer git clone do projeto
+```bash
+git clone https://github.com/Daiana-Iris-Brites/getnetApi.git
+cd getnetApi
+
+```
 2) Navegue até o diretório do projeto pelo terminal de sua preferência
 3) Execute para instalar as dependências:
 ```bash
@@ -59,3 +70,8 @@ Após a execução dos testes, você pode encontrar os relatórios do Allure no 
 
 ### 📈 Relatórios dos testes
 Para gerar os relatórios de testes do Allure, é necessário fazer a instalação do Allure conforme a documentação oficial: https://docs.qameta.io/allure/#_installing_a_commandline
+
+### Possíveis Melhorias
+Analisando possíveis cenários de testes, como campos em branco, como não tem uma documentação que possa interpretar o comportamento correto da response,
+adicionei cenários adicionais, pois em uma realidade próxima ao time de desenvolvimento, seria o momento de ter uma troca sobre possíveis melhorias e impactos do sistema, conforme forem as entregas.
+![AllureReport.jpg](AllureReport.jpg)

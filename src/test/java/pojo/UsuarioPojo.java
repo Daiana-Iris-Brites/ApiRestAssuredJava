@@ -4,6 +4,13 @@ public class UsuarioPojo {
     private String name;
     private String job;
 
+    public UsuarioPojo() {}
+
+    public UsuarioPojo(String name, String job) {
+        this.name = name;
+        this.job = job;
+    }
+
     public String getName() {
         return name;
     }
