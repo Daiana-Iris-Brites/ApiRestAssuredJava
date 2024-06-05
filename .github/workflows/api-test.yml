@@ -18,6 +18,11 @@ jobs:
         with:
           java-version: '17'
 
+      - name: Set up Maven
+        uses: actions/setup-java@v2
+        with:
+          distribution: 'apache' # Ou 'maven' dependendo da distribuição que você está usando
+
       - name: Build with Maven
         run: mvn -B clean test
 
