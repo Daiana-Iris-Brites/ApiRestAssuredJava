@@ -17,14 +17,13 @@ URI = https://reqres.in/api/
 - Maven
 - Rest-Assured
 - Allure report
+- Intellij
 - Junit
 - Faker (para geração de dados falsos em testes)
 
 Configuração
-Instruções sobre como configurar o ambiente de desenvolvimento localmente. Isso pode incluir:
-
-- Instalação do Java JDK
-- Instalação do Maven
+- [Instalação do Java JDK no Windows](https://www.youtube.com/watch?v=laC0fiI-IOM)
+- [Instalação do Maven](https://www.youtube.com/watch?v=rfhTnfbBQcY)
 
 ## Uso
 Instruções sobre como instalar e configurar o projeto:
