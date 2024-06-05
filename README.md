@@ -26,7 +26,7 @@ Desenvolva o script da automação seguindo as informações a seguir:
 - [Instalação do Maven](https://www.youtube.com/watch?v=rfhTnfbBQcY)
 
 >ATENÇÃO 
-### Pré requisitos:
+### Pré-requisitos:
 Antes de começar, garanta que você já tem configurado e instalado:
 - Java 17
 - Maven

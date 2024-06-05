@@ -98,8 +98,8 @@ Ao aplicar as heurísticas VEDER e ALTER-FACE, podemos garantir que suas aplica�
 7) Cite ferramentas de testes automatizados para Desktop, Web, API ́s e mobile
 ```bash
 Desktop: RPA , TestComplete; 
-Web: Selenium, Cypress, RobotFramework;
-APIs: Postman, RestAssured, RobotFramework, Playwright;
-Mobile: Appium, Espresso (Android), XCUITest (iOS), Robot Framework
+Web: Selenium, Cypress e RobotFramework;
+APIs: Postman, RestAssured, RobotFramework e Playwright;
+Mobile: Appium, Espresso (Android), XCUITest (iOS) e Robot Framework
 
 ```
