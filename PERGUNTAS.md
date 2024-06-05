@@ -19,12 +19,30 @@ A técnica a ser utilizada é a técnica de particão de equivalência, que envo
    c) 232425,232460
    d) 232424,232425,232459,232460,232461
 ```bash
-Resposta seria a d) , pois deve-se testar o valor mínimo, o valor máximo e valores adjacentes para garantir que a faixa está correta.
+Resposta seria a d) , pois é a mais completa e deve-se testar o valor mínimo, o valor máximo e valores adjacentes para garantir que a faixa está correta.
 
 ```
 3) Cite uma abordagem desenvolvimento ágil e explique-a, responda em suas palavras.
 ```bash
-Resposta seria a d) , pois deve-se testar o valor mínimo, o valor máximo e valores adjacentes para garantir que a faixa está correta.
+A abordagem ágil no contexto de QA nos times de desenvolvimento de software envolve a integração contínua e colaborativa dos testes ao longo de todo o ciclo de vida do desenvolvimento. Em vez de tratar o QA como uma fase separada que ocorre após o desenvolvimento, o QA é incorporado em cada etapa do processo. Isso garante que os problemas sejam identificados e corrigidos mais rapidamente, promovendo uma entrega de software de maior qualidade e de maneira mais eficiente.
+
+Exemplo de Abordagem Ágil com QA
+Vamos considerar um exemplo prático de uma equipe de desenvolvimento de software que está criando uma aplicação web.
+
+1. Planejamento da Sprint
+Reunião de Planejamento da Sprint: Durante a reunião de planejamento da sprint, o QA participa ativamente junto com os desenvolvedores e o Product Owner. Eles ajudam a definir as histórias de usuário e a criar critérios de aceitação claros e testáveis.
+2. Desenvolvimento e Testes
+Desenvolvimento Incremental: À medida que os desenvolvedores trabalham em pequenas funcionalidades ou incrementos do produto, o QA também começa a criar casos de teste automatizados e manuais com base nos critérios de aceitação definidos e na gestão de bugs do time.
+Integração Contínua: A equipe utiliza um pipeline de integração contínua (CI) onde cada commit no código dispara automaticamente uma série de testes. Isso inclui testes unitários, testes de integração e testes de regressão automatizados.
+3. Dailys: Durante as reuniões diárias, os QAs discutem o progresso dos testes, destacam qualquer bloqueio ou defeito encontrado e colaboram com desenvolvedores para resolver esses problemas rapidamente.
+4. Revisão e Retrospectiva
+Revisão da Sprint (Sprint Review): No final da sprint, durante a reunião de revisão da sprint, os QAs demonstram os resultados dos testes e discutem quaisquer problemas de qualidade que possam impactar a entrega do incremento de software.
+Retrospectiva da Sprint: Durante a retrospectiva, a equipe inteira, incluindo o QA, discute o que funcionou bem e o que pode ser melhorado. Isso pode incluir estratégias de teste, ferramentas, colaboração, entre outros aspectos.
+Todas essas ações ajudam:
+- Detecção Precoce de Defeitos
+- Feedback Contínuo: 
+- Melhoria Contínua
+- Maior Colaboração
 
 ```
 4) O que é CI/CD?
