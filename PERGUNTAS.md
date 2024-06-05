@@ -93,11 +93,11 @@ Environment (Ambiente): Considere diferentes ambientes em que a aplicação pode
 
 Range (Alcance): Teste a aplicação em diferentes condições de carga e uso. Isso inclui testes de performance, testes de stress, e testes de escalabilidade para garantir que o sistema funcione corretamente sob diferentes níveis de uso e pressão.
 
-Ao aplicar as heurísticas VEDER e ALTER-FACE, podemos garantir que suas aplicações são não apenas funcionalmente corretas, mas também amigáveis ao usuário e robustas em uma variedade de condições.
+Ao aplicar as heurísticas VEDER e ALTER-FACE, podemos garantir que as aplicações são não apenas funcionalmente corretas, mas também amigáveis ao usuário e robustas em uma variedade de condições.
 ```
 7) Cite ferramentas de testes automatizados para Desktop, Web, API ́s e mobile
 ```bash
-Desktop: RPA , TestComplete; 
+Desktop: RPA e TestComplete; 
 Web: Selenium, Cypress e RobotFramework;
 APIs: Postman, RestAssured, RobotFramework e Playwright;
 Mobile: Appium, Espresso (Android), XCUITest (iOS) e Robot Framework
